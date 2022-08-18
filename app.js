@@ -1,18 +1,16 @@
-const player = {
-    name: "Darwin" + " Nunes",
-    pt: 1,
-    height: 185,
-    nat: "Uruguay"
+function introduction {
+    "Hello I'm ChanWu"
 }
 
-console.log(player); // Access a object
-console.log(player.name); // 1 Access a property of objective
-console.log(player["pt"]); // 2 Access a property of objective
+introduction( ); // Call the functions. 
+introduction( ); // I means press and play on the button.
+                // but as you can see, I did not send any data
 
-player.position = "FW";
-player.pt = player.pt + 10;
-console.log(player);
+console.log('asdf'); // call the functions and send a data.
+// I press and play on the button. And i also send a data.
 
+introduction("MinHo");
+// I press and play on the button. And i also send a data.
 
 
 
