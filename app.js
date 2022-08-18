@@ -1,12 +1,13 @@
-const a  = true;
-const b = false;
-const c = null;
-let d;
+const first = "mon";
+const second = "tue";
 
-console.log(a);
-console.log(b);
-console.log(c);
-console.log(d);
+let week = [first, second, "wed", "thu", "fri", "sat"]
+const somethings = [true, false, undefined, null, "fri", 2, 2+2, "messi" + " PSG", first]
+console.log(week);
+console.log(somethings);
+console.log(week[0]);
+week.push("sun");
+console.log(week);
 
 
 
