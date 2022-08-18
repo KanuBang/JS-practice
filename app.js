@@ -1,16 +1,39 @@
-function introduction () {
-   console.log("im chanwu bang");
+function introduction (name) {
+   console.log("i'm "+ name);
 }
 
-introduction( ); // Call the functions. 
-introduction( ); // I means press and play on the button.
-                // but as you can see, I did not send any data
+introduction("chanwu");
+introduction("messi");
+introduction("ronaldo");
 
-console.log('asdf'); // call the functions and send a data.
-// I press and play on the button. And i also send a data.
+function nan(a,b) {
+    console.log(a+b);
+}
 
-introduction("MinHo");
-// I press and play on the button. And i also send a data.
+nan();
+
+function plus(first, second) {
+    console.log(first+second);
+}
+
+function divide (first, second) {
+    console.log(first/second);
+}
+
+plus(2,2);
+divide(60,15);
+
+
+const player = {
+    name: "messi",
+    sayHello: function(position) {
+        console.log( player.name +" is ont the most best" + position);
+    },
+}
+
+player.sayHello("Forward");
+
+
 
 
 
