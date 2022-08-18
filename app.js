@@ -1,13 +1,17 @@
-const first = "mon";
-const second = "tue";
+const player = {
+    name: "Darwin" + " Nunes",
+    pt: 1,
+    height: 185,
+    nat: "Uruguay"
+}
 
-let week = [first, second, "wed", "thu", "fri", "sat"]
-const somethings = [true, false, undefined, null, "fri", 2, 2+2, "messi" + " PSG", first]
-console.log(week);
-console.log(somethings);
-console.log(week[0]);
-week.push("sun");
-console.log(week);
+console.log(player); // Access a object
+console.log(player.name); // 1 Access a property of objective
+console.log(player["pt"]); // 2 Access a property of objective
+
+player.position = "FW";
+player.pt = player.pt + 10;
+console.log(player);
 
 
 
