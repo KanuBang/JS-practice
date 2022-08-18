@@ -1,16 +1,13 @@
-const a  = 10;
-const b = 2;
-let name = "Messi";
-let clubName = " PSG1";
+const a  = true;
+const b = false;
+const c = null;
+let d;
 
-console.log(a+b);
-console.log(a*b);
-console.log(a/b);
-console.log(name + clubName);
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
 
-name = "Alaba";
-clubName = " AUS";
-console.log(name + clubName);
 
 
 
