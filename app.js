@@ -1,5 +1,5 @@
-function introduction {
-    "Hello I'm ChanWu"
+function introduction () {
+   console.log("im chanwu bang");
 }
 
 introduction( ); // Call the functions. 
