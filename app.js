@@ -1,10 +1,12 @@
-const age = prompt("how old are you?");
-console.log(age, parseInt(age));
-console.log("age is " +age+ "the type of age is " + typeof age);
-console.log("age is " +parseInt(age)+ "the type of age is " + typeof parseInt(age));
-console.log(parseInt("grrggr"));
+const charString = parseInt("This is the srting");
+console.log("\"This is the string\" is " + charString + " In the parseInt");
 
-const ageOfInt = parseInt(prompt("how old are you?"));
-console.log(ageOfInt);
-console.log("The type of age of Int is " + typeof ageOfInt );
+const age = parseInt(prompt("how old are you?"));
 
+if(isNaN(age)) {
+    console.log ("Please wirte a number not a string or character.")
+}
+
+else {
+    console.log ("you entered " + age +". right?");
+}
