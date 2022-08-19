@@ -1,29 +1,10 @@
-console.log(
-"Now I will make a program showing the sum of quotient and remainder"
-);
+const age = prompt("how old are you?");
+console.log(age, parseInt(age));
+console.log("age is " +age+ "the type of age is " + typeof age);
+console.log("age is " +parseInt(age)+ "the type of age is " + typeof parseInt(age));
+console.log(parseInt("grrggr"));
 
-console.log(
-"And feel the necessity of return through this program"
-);
-
-const num = 10;
-const divide = 3;
-
-const calculator = {
-   
-    calculateQuotient : function (target, divider) {
-        return target / divider;
-    },
-
-    calculateRemainder : function (target, divider) {
-        return target % divider;
-    }
-
-}
-
-const sum =  calculator.calculateQuotient(num,divide) + calculator.calculateRemainder(num,divide);
-console.log("The quotient is " + calculator.calculateQuotient(num,divide));
-console.log("The remainder is " + calculator.calculateRemainder(num,divide));
-console.log("The sum of quotient and remainder is " + sum);
-
+const ageOfInt = parseInt(prompt("how old are you?"));
+console.log(ageOfInt);
+console.log("The type of age of Int is " + typeof ageOfInt );
 
