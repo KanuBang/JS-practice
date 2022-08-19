@@ -1,12 +1,25 @@
-const charString = parseInt("This is the srting");
-console.log("\"This is the string\" is " + charString + " In the parseInt");
+const age = parseInt(prompt("Enter an age"));
 
-const age = parseInt(prompt("how old are you?"));
+if(isNaN(age) || age <0) {
+    console.log("Please Enter a real postive number!");
+}
 
-if(isNaN(age)) {
-    console.log ("Please wirte a number not a string or character.")
+else if (age < 18) {
+    console.log("You are too young!");
+}
+
+else if (age>=18 && age <50 ) {
+    console.log("Drink as much as you drink possible!");
+}
+
+else if (age>=50 && age <80) {
+    console.log("You can drink but drinking is not good for your age");
+}
+
+else if (age === 100) {
+    console.log("WOWWWWWW!");
 }
 
 else {
-    console.log ("you entered " + age +". right?");
+    console.log("I know you quit drinking a long time ago");
 }
