@@ -23,3 +23,12 @@ else if (age === 100) {
 else {
     console.log("I know you quit drinking a long time ago");
 }
+
+/*
+javaScript can bring and chagne html.
+How?
+The browser gives you documets that have many objects.
+So The connection between javascript and html already exists through
+objects that browesr offered 
+
+*/
