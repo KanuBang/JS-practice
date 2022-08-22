@@ -1,14 +1,13 @@
 const h1 = document.querySelector("div.hello:first-child h1");
 
 function handleTitleClick ( ) {
-    const activeClass = "active sexy-font"
-    if(h1.className === activeClass) {
-        h1.className= "";
+    const activeClass = "active"
+    if(h1.classList.contains(activeClass)) {
+        h1.classList.remove(activeClass);
     }
-
     else {
-        h1.className = activeClass;  
-    }
+        h1.classList.add(activeClass);
+    } 
 }
 
 h1.addEventListener("click", handleTitleClick);
