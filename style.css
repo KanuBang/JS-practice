@@ -1,3 +1,16 @@
 body {
-    background-color: aqua;
+    background-color: beige;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+.active {
+    color: tomato;
+    transition: color 3s ease-in-out;
+}
+
+.sexy-font {
+    font-style: italic;
 }
