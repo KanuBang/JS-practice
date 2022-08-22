@@ -1,7 +1,26 @@
-const title = document.getElementById("title");
-console.dir(title); /*객체의 데이터를 보고 싶을때 사용*/
+const hellos = document.getElementsByClassName("hello");
+console.log(hellos);
 
-title.innerText = "got you";
+const title = document.getElementsByTagName("h1");
+console.log(title);
 
-console.log(title.id);
-console.log(title.className);
+const title1 = document.querySelector(".hello h1");
+console.log(title1);
+
+const title2 = document.querySelector(".hello h2");
+console.log(title2);
+
+const title3 = document.querySelectorAll(".hello h2");
+console.log(title3);
+
+const sameId1 = document.querySelector("#searchId");
+const sameId2 = document.getElementById("searchId");
+
+console.log(sameId1);
+console.log(sameId2);
+
+const change = document.querySelector(".hello h2");
+change.innerText = "change";
+console.log(change);
+
+
