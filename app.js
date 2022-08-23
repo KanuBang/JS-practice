@@ -5,25 +5,16 @@ const loginInput = loginForm.querySelector("input");
 const loginButton = loginForm.querySelector("button");
 */
 
+const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
-const loginButton = document.querySelector("#login-form button");
 
 
-function onLoginBtnClick ( ) {
-    
-    const username = loginInput.value;
-    
-    if(username === "") {
-        alert("Please wirte your name!");
-    }
-    
-    else if (username.length > 15 ) {
-        alert("Name is too wrong!");
-    }
-
+function onSubmit(event) {
+    event.preventDefault( );
+    console.log(event);
 }
 
-loginButton.addEventListener("click", onLoginBtnClick);
+loginForm.addEventListener("submit", onSubmit);
 
 
 
