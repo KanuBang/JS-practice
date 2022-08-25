@@ -53,4 +53,4 @@ if(savedToDos !== null) {
     const parsedToDos = JSON.parse(savedToDos);
     parsedToDos.forEach((item) => console.log("this is the turn of ", item ));
 }
-//arrow fucntion
+//this is arrow fucntion 
